@@ -22,7 +22,6 @@ body {
     color: #777;
 }
 
-/* Class Selectors */
 .main-content {
     max-width: 900px;
     margin: 0 auto;
@@ -98,3 +97,4 @@ p, ul, li {
     color: #555;
 
 }
+
