@@ -1,0 +1,99 @@
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#main-header, #main-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#main-footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+.profile-image img {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-text {
+    text-align: center;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.schedule-table th {
+    background-color: #eef2f5;
+    font-weight: bold;
+}
+
+.accent-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.accent-link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #2c3e50;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: #2c3e50;
+}
+
+p, ul, li {
+    color: #555;
+}
